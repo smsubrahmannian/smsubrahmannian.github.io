@@ -1,0 +1,4 @@
+topic
+*.pyc
+.DS_Store
+.env
