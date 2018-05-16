@@ -145,13 +145,13 @@ relevance_mark = {str(th):rel_mark(th, relevance_all) for th in relevance_all}
 relevance_mark_updated = update_slider_mark(relevance_mark, 15)
 
 # map threshold value to adjacency matrix
-with open('../data/thresh_to_adj_topics.pkl', 'rb') as f:
+with open('./data/thresh_to_adj_topics.pkl', 'rb') as f:
     thresh_to_adj = pickle.load(f)
 # map threshold value to graph
-with open('../data/thresh_to_graph_topics.pkl', 'rb') as f:
+with open('./data/thresh_to_graph_topics.pkl', 'rb') as f:
     thresh_to_graph = pickle.load(f)
 
-with open('../data/thresh_to_pos_topics.pkl', 'rb') as f:
+with open('./data/thresh_to_pos_topics.pkl', 'rb') as f:
     thresh_to_pos = pickle.load(f)
 
 
